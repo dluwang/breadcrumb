@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b59f44a7e531314e27b6043ea1d91e1d",
+    "content-hash": "db5251545ead9e960014496ade3b96a0",
     "packages": [
         {
             "name": "symfony/polyfill-mbstring",
@@ -198,16 +198,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v5.7.18",
+            "version": "v5.7.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "799108d67cdc9843ed3569ae2989888826166381"
+                "reference": "b963d48b9aab0029fddf3629a4e11f063469c6ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/799108d67cdc9843ed3569ae2989888826166381",
-                "reference": "799108d67cdc9843ed3569ae2989888826166381",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/b963d48b9aab0029fddf3629a4e11f063469c6ea",
+                "reference": "b963d48b9aab0029fddf3629a4e11f063469c6ea",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2018-12-17T15:11:32+00:00"
+            "time": "2018-12-19T23:16:40+00:00"
         }
     ],
     "packages-dev": [
@@ -1093,16 +1093,16 @@
         },
         {
             "name": "kastengel/packdev",
-            "version": "v1.2.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/kastengel/packdev.git",
-                "reference": "b21ce9615240e8d8480e52b21bae66cff75e701b"
+                "reference": "11514815d7d9a17bdc345a9d04a042ae7ddc6919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/kastengel%2Fpackdev/repository/archive.zip?sha=b21ce9615240e8d8480e52b21bae66cff75e701b",
-                "reference": "b21ce9615240e8d8480e52b21bae66cff75e701b",
+                "url": "https://gitlab.com/api/v4/projects/kastengel%2Fpackdev/repository/archive.zip?sha=11514815d7d9a17bdc345a9d04a042ae7ddc6919",
+                "reference": "11514815d7d9a17bdc345a9d04a042ae7ddc6919",
                 "shasum": ""
             },
             "require": {
@@ -1148,7 +1148,7 @@
                 }
             ],
             "description": "Laravel specific package foundation",
-            "time": "2019-01-06T20:04:26+00:00"
+            "time": "2019-01-06T16:45:52+00:00"
         },
         {
             "name": "laravel/dusk",
@@ -1213,16 +1213,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.7.19",
+            "version": "v5.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5c1d1ec7e8563ea31826fd5eb3f6791acf01160c"
+                "reference": "10cd20294b5668f90ba91996236834e71f7ff670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5c1d1ec7e8563ea31826fd5eb3f6791acf01160c",
-                "reference": "5c1d1ec7e8563ea31826fd5eb3f6791acf01160c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/10cd20294b5668f90ba91996236834e71f7ff670",
+                "reference": "10cd20294b5668f90ba91996236834e71f7ff670",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1296,7 @@
                 "moontoast/math": "^1.1",
                 "orchestra/testbench-core": "3.7.*",
                 "pda/pheanstalk": "^3.0",
-                "phpunit/phpunit": "^7.0",
+                "phpunit/phpunit": "^7.5",
                 "predis/predis": "^1.1.1",
                 "symfony/css-selector": "^4.1",
                 "symfony/dom-crawler": "^4.1",
@@ -1355,7 +1355,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-18T14:00:38+00:00"
+            "time": "2019-01-08T14:39:11+00:00"
         },
         {
             "name": "laravel/laravel",
