@@ -12,9 +12,9 @@ This is a package that provide service to build breadcrumb.
 
 | Laravel Version | Package Version |
 |--|-|
-| 5.5 | ^1.0 |
-| 5.6 | ^1.1 |
-| 5.7 | ^1.2 |
+| 5.5 | 1.0.* |
+| 5.6 | 1.1.* |
+| 5.7 | 1.2.* |
 
 
 ## **Installation**
