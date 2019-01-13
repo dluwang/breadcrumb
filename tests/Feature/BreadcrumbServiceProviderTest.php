@@ -1,11 +1,11 @@
 <?php
 
-namespace Nagasari\Breadcrumb\Tests\Feature;
+namespace Dluwang\Breadcrumb\Tests\Feature;
 
 use Kastengel\Packdev\Tests\TestCase;
-use Nagasari\Breadcrumb\Breadcrumb;
-use Nagasari\Breadcrumb\InMemoryBreadcrumb;
-use Nagasari\Breadcrumb\Laravel\BreadcrumbServiceProvider;
+use Dluwang\Breadcrumb\Breadcrumb;
+use Dluwang\Breadcrumb\InMemoryBreadcrumb;
+use Dluwang\Breadcrumb\Laravel\BreadcrumbServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class BreadcrumbServiceProviderTest extends TestCase

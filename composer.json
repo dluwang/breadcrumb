@@ -1,5 +1,5 @@
 {
-    "name": "nagasari/breadcrumb",
+    "name": "dluwang/breadcrumb",
     "description": "PHP Breadcrumb builder service",
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Nagasari\\Breadcrumb\\": "src/",
-            "Nagasari\\Breadcrumb\\Tests\\": "tests/"
+            "Dluwang\\Breadcrumb\\": "src/",
+            "Dluwang\\Breadcrumb\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nagasari\\Breadcrumb\\Laravel\\BreadcrumbServiceProvider"
+                "Dluwang\\Breadcrumb\\Laravel\\BreadcrumbServiceProvider"
             ]
         }
     }

@@ -5,12 +5,12 @@ This is a package that provide service to build breadcrumb.
 ## **Installation**
 
 ```
-composer require nagasari/breadcrumb
+composer require dluwang/breadcrumb
 ```
 
 ## **Usage**
 **Define Navigation**
-`Nagasari/Breadcrumb/Crumb`  is  a class to define your crumb. The `__construct` method has three mandatory arguments and one optional arguments
+`Dluwang/Breadcrumb/Crumb`  is  a class to define your crumb. The `__construct` method has three mandatory arguments and one optional arguments
 
 ```php
 public function __construct($id, $label, $url, Crumb $prev = null)
@@ -44,7 +44,7 @@ results: [['crumb-1', 'crumb 1', '/crumb-1'], ['crumb-2', 'crumb 2', '/crumb-2']
 If your crumb is build in recursive manner, it will generate all of the prev crumb.
 
 ## **Define Breadcrumb**
-`Nagasari/Breadcrumb/Breadcrumb`  is an interface that act as the repository of Crumb. All Breadcrumb implementation should implements `Nagasari/Breadcrumb/Breadcrumb` interface. Currently. this package provide in memory implementation which is located at `Nagasari/Breadcrumb/InMemoryBreadcrumb`.
+`Dluwang/Breadcrumb/Breadcrumb`  is an interface that act as the repository of Crumb. All Breadcrumb implementation should implements `Dluwang/Breadcrumb/Breadcrumb` interface. Currently. this package provide in memory implementation which is located at `Dluwang/Breadcrumb/InMemoryBreadcrumb`.
 
 ```php
 $breadcrumb = new InMemoryBreadcrumb()
