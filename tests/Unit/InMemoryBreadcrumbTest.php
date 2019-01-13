@@ -1,10 +1,10 @@
 <?php
 
-namespace Nagasari\Breadcrumb\Tests\Unit;
+namespace Dluwang\Breadcrumb\Tests\Unit;
 
-use Nagasari\Breadcrumb\Crumb;
-use Nagasari\Breadcrumb\Breadcrumb;
-use Nagasari\Breadcrumb\InMemoryBreadcrumb;
+use Dluwang\Breadcrumb\Crumb;
+use Dluwang\Breadcrumb\Breadcrumb;
+use Dluwang\Breadcrumb\InMemoryBreadcrumb;
 use Kastengel\Packdev\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 

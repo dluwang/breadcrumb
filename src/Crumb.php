@@ -1,6 +1,6 @@
 <?php
 
-namespace Nagasari\Breadcrumb;
+namespace Dluwang\Breadcrumb;
 
 use JsonSerializable;
 

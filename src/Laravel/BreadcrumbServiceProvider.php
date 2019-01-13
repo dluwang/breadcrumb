@@ -1,10 +1,10 @@
 <?php
 
-namespace Nagasari\Breadcrumb\Laravel;
+namespace Dluwang\Breadcrumb\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Nagasari\Breadcrumb\Breadcrumb;
-use Nagasari\Breadcrumb\InMemoryBreadcrumb;
+use Dluwang\Breadcrumb\Breadcrumb;
+use Dluwang\Breadcrumb\InMemoryBreadcrumb;
 
 class BreadcrumbServiceProvider extends ServiceProvider
 {
