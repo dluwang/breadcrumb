@@ -1,6 +1,6 @@
 <?php
 
-namespace Nagasari\Breadcrumb;
+namespace Dluwang\Breadcrumb;
 
 class InMemoryBreadcrumb implements Breadcrumb
 {
