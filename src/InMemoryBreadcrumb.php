@@ -31,7 +31,7 @@ class InMemoryBreadcrumb implements Breadcrumb
      *
      * @return self
      */
-    public function register($crumb)
+    public function register($crumb): Breadcrumb
     {
         if(is_array($crumb)) {
             foreach ($crumb as $key => $value) {
@@ -42,6 +42,8 @@ class InMemoryBreadcrumb implements Breadcrumb
                 $this->crumbs->push($crumb);
             }
         }
+
+        return $this;
     }
 
     /**
@@ -49,9 +51,9 @@ class InMemoryBreadcrumb implements Breadcrumb
      *
      * @param  mixed $id
      *
-     * @return Crumb
+     * @return null|Crumb
      */
-    public function crumb($id)
+    public function crumb($id): ?Crumb
     {
         $crumb = $this->crumbs->first(function($value) use ($id){
             return $value->id == $id;
@@ -67,9 +69,11 @@ class InMemoryBreadcrumb implements Breadcrumb
      *
      * @return self
      */
-    public function prev(Crumb $crumb)
+    public function prev(Crumb $crumb): Breadcrumb
     {
         $this->prev = $crumb;
+
+        return $this;
     }
 
     /**
@@ -77,9 +81,9 @@ class InMemoryBreadcrumb implements Breadcrumb
      *
      * @param  Crumb $crumb
      *
-     * @return Crumb
+     * @return null|Crumb
      */
-    protected function applyGlobalPrev(Crumb $crumb)
+    protected function applyGlobalPrev(Crumb $crumb): Crumb
     {
         if($prev = $crumb->prev) {
             $crumb->prev($this->applyGlobalPrev($prev));

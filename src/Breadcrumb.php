@@ -11,16 +11,16 @@ interface Breadcrumb
      *
      * @return self
      */
-    public function register($crumb);
+    public function register($crumb): Breadcrumb;
 
     /**
      * Retrieve crumb by id.
      *
      * @param  mixed $id
      *
-     * @return Crumb
+     * @return null|Crumb
      */
-    public function crumb($id);
+    public function crumb($id): ?Crumb;
 
     /**
      * Set previous crumb.
@@ -29,5 +29,5 @@ interface Breadcrumb
      *
      * @return self
      */
-    public function prev(Crumb $crumb);
+    public function prev(Crumb $crumb): Breadcrumb;
 }

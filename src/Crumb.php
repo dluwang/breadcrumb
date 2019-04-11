@@ -49,7 +49,7 @@ class Crumb implements JsonSerializable
      *
      * @return self
      */
-    public function prev(Crumb $crumb)
+    public function prev(Crumb $crumb): Crumb
     {
         $this->prev = $crumb;
 
@@ -63,7 +63,7 @@ class Crumb implements JsonSerializable
      *
      * @return string
      */
-    public function toJson($options = 0)
+    public function toJson($options = 0): string
     {
         return json_encode($this->jsonSerialize(), $options);
     }
@@ -73,7 +73,7 @@ class Crumb implements JsonSerializable
      *
      * @return array
      */
-    public function toArray()
+    public function toArray(): array
     {
         $crumbs = collect([
             [
@@ -97,7 +97,7 @@ class Crumb implements JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return $this->toArray();
     }
@@ -107,7 +107,7 @@ class Crumb implements JsonSerializable
      *
      * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
         return $this->toJson();
     }
