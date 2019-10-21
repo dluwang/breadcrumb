@@ -22,11 +22,4 @@ RUN apk --update add curl \
 RUN pecl install mcrypt-1.0.1
 RUN docker-php-ext-install zip
 
-# Create a group and user
-RUN set -x \
-	&& addgroup -g $GID -S appuser \
-	&& adduser -u $UID -D -S -G appuser appuser
-
-USER appuser
-
 COPY . .
